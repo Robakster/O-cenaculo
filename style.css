@@ -1,0 +1,354 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.titulo{
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    font-size: 85px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.barra{
+    position: absolute;
+    width: 50%;
+    top: 18%;
+    left: 25%;
+    border: 1px solid black;
+
+}
+
+.volume{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    
+}
+
+.email{
+    position:fixed;
+    bottom: 0;
+    font-size: 25px;
+    font-weight: 700;
+    right: 32%;
+}
+
+.imagem-garças{
+    display: flex;
+    width: 25%;
+    position: absolute;
+    top: 23%;
+    left: 25%;
+}
+
+.autores{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    display: absolute;
+    position: fixed;
+    bottom: 0;
+    left: 35%;
+    margin: 25px;
+}
+
+.em-breve{
+    position: absolute;
+    top: 27%;
+    left: 50.5%;
+    font-size: 35px;
+}
+
+.body2{
+    padding-bottom: 1500px;
+}
+
+.titulo-2{
+    position: absolute;
+    top: 3%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.mês{
+    position: absolute;
+    top: 16%;
+    left: 45%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.barra-2{
+    position: absolute;
+    width: 50%;
+    top: 16%;
+    left: 25%;
+    border: 1px solid black;
+}
+
+
+.caderno-viagens{
+    display: flex;
+    position: absolute;
+    width: 45%;
+    right: 1%;
+    top: 100%;
+}
+
+.foto-joana{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.garça-guarda-chuva{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    width: 50%;
+}
+
+.o-esqueleto{
+    width: 45%;
+    display: flex;
+    position: absolute;
+    top: 28%;
+    left: 7%;
+}
+
+@media (max-width:440px) {
+    .titulo{
+        white-space: nowrap;
+        font-size: 8vw;
+        left: 18%;
+     }
+    .barra{
+        width: 57vw;
+        top: 14vw;
+        left: 23vw;
+    }
+    .imagem-garças{
+        width: 60%;
+        top: 12%;
+        left: 18%;
+    }
+    .volume{
+        font-size: 6vw;
+        top: 44%;
+        left: 35%;
+    }
+    .em-breve{
+        top: 45%;
+        left: 47%;
+        font-size: 6vw;
+    }
+    .email{
+        bottom: 0;
+        font-size: 5vw;
+        font-weight: 700;
+        right: 5%;
+    }
+    .autores{
+        font-size: 5vw;
+        font-weight: 700;
+        left: 5%;
+        bottom: 2%;
+        margin-bottom: 0;
+    }
+
+
+    .titulo-2{
+        white-space: nowrap;
+        font-size: 8vw;
+    }
+    .barra-2 {
+        top: 10%;
+    }
+    .mês{
+        font-size: 5vw;
+        top: 10%;
+        left: 38%;
+        white-space: nowrap;
+    }
+    .o-esqueleto{
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    .foto-joana{
+        width: 90%;
+        top: 45%;
+    }
+    .garça-guarda-chuva{
+        width: 90%;
+        top: 80%;
+    }
+    .caderno-viagens{
+        width: 90%;
+        top: 125%;
+        left: 5%;
+    }
+}
+
+
+@media (max-width:380px) {
+ .titulo{
+        white-space: nowrap;
+        font-size: 8vw;
+        left: 18%;
+     }
+    .barra{
+        width: 57vw;
+        top: 15vw;
+        left: 23vw;
+    }
+    .imagem-garças{
+        width: 60%;
+        top: 12%;
+        left: 18%;
+    }
+    .volume{
+        font-size: 6vw;
+        top: 50%;
+        left: 35%;
+    }
+    .em-breve{
+        top: 52%;
+        left: 47%;
+        font-size: 6vw;
+    }
+    .email{
+        bottom: 0;
+        font-size: 5vw;
+        font-weight: 700;
+        right: 5%;
+    }
+    .autores{
+        font-size: 5vw;
+        font-weight: 700;
+        left: 5%;
+        bottom: 2.5%;
+    }
+
+   .titulo-2{
+        margin-top: 0;
+        white-space: nowrap;
+        font-size: 8vw;
+    }
+    .barra-2 {
+        top: 8%;
+    }
+    .mês{
+        font-size: 5vw;
+        top: 8%;
+        left: 38%;
+        white-space: nowrap;
+    }
+    .o-esqueleto{
+        width: 90%;
+        top: 15%;
+        left: 5%;
+    }
+    .foto-joana{
+        width: 90%;
+        top: 50%;
+    }
+    .garça-guarda-chuva{
+        width: 90%;
+        top: 95%;
+    }
+    .caderno-viagens{
+        width: 90%;
+        top: 145%;
+        left: 5%;
+    }
+}
+
+@media (max-width:1030px) {
+    .titulo{
+        white-space: nowrap;
+        font-size: 8vw;
+        left: 19%;
+     }
+    .barra{
+        width: 57vw;
+        top: 12vw;
+        left: 21vw;
+    }
+    .imagem-garças{
+        width: 60%;
+        top: 12%;
+        left: 18%;
+    }
+    .volume{
+        font-size: 5vw;
+        top: 62%;
+        left: 38%;
+    }
+    .em-breve{
+        top: 64%;
+        left: 47%;
+        font-size: 5vw;
+    }
+    .email{
+        bottom: 0;
+        font-size: 4vw;
+        font-weight: 700;
+        right: 5%;
+    }
+    .autores{
+        font-size: 4vw;
+        font-weight: 700;
+        left: 5%;
+        bottom: 1%;
+    }
+
+
+    .titulo-2{
+        white-space: nowrap;
+        font-size: 7vw;
+    }
+    .barra-2 {
+        top: 11%;
+    }
+    .mês{
+        font-size: 4vw;
+        top: 10%;
+        left: 40%;
+        white-space: nowrap;
+    }
+    .o-esqueleto{
+        width: 90%;
+        top: 17%;
+        left: 5%;
+    }
+    .foto-joana{
+        width: 90%;
+        top: 60%;
+    }
+    .garça-guarda-chuva{
+        width: 90%;
+        top: 120%;
+    }
+    .caderno-viagens{
+        width: 90%;
+        top: 190%;
+        left: 5%;
+    }
+}

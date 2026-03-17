@@ -1,0 +1,132 @@
+.titulo{
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.barra{
+    position: absolute;
+    width: 50%;
+    top: 12%;
+    left: 25%;
+    border: 1px solid black;
+
+}
+
+.caderno-viagens{
+    display: flex;
+    position: absolute;
+    width: 45%;
+    left: 5%;
+    top: 20%;
+}
+
+.foto-joana{
+    width: 50%;
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 16%;
+}
+
+.garça-guarda-chuva{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: 50%;
+}
+
+.o-esqueleto{
+    width: 50%;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+@media (max-width:440px) {
+    .titulo{
+        white-space: nowrap;
+        font-size: 6vw;
+        left: 22%;
+    }
+    .barra {
+        top: 6%;
+    }
+    .o-esqueleto{
+        width: 90%;
+        top: 8%;
+    }
+    .foto-joana{
+        width: 90%;
+        top: 10%;
+    }
+    .garça-guarda-chuva{
+        width: 90%;
+        top: 10%;
+    }
+    .caderno-viagens{
+        width: 90%;
+        top: 10%;
+    }
+}
+
+@media (max-width:380px) {
+    .titulo{
+        white-space: nowrap;
+        font-size: 5vw;
+        left: 22%;
+    }
+    .barra {
+        top: 7%;
+    }
+    .o-esqueleto{
+        width: 90%;
+        top: 10%;
+    }
+    .foto-joana{
+        width: 90%;
+        top: 10%;
+    }
+    .garça-guarda-chuva{
+        width: 90%;
+        top: 10%;
+    }
+    .caderno-viagens{
+        width: 90%;
+        top: 10%;
+    }
+}
+
+@media (max-width:1030px) {
+    .titulo{
+        white-space: nowrap;
+        font-size: 5vw;
+        left: 24%;
+    }
+    .barra {
+        top: 7%;
+    }
+    .o-esqueleto{
+        width: 90%;
+        top: 10%;
+    }
+    .foto-joana{
+        width: 90%;
+        top: 10%;
+    }
+    .garça-guarda-chuva{
+        width: 90%;
+        top: 10%;
+    }
+    .caderno-viagens{
+        width: 90%;
+        top: 10%;
+    }
+}
